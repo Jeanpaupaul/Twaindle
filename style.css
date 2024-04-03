@@ -1,0 +1,73 @@
+#cardZone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vw;
+    padding-top: 5vw;
+  }
+
+.Title {
+  font-family: Oswald;
+  font-weight: bold;
+  font-size: 80px;
+  text-align: center;
+  color:  white;
+}
+
+.Background {
+  background-color: rgb(20, 20, 20);
+}
+  
+.letter-box {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .card {
+    height: 14vw;
+    width: 18vw;
+    background-color: transparent;
+    border-radius: 1vw;
+    text-align: center;
+    outline: none;
+    border: 0.1vw solid #ffffff;
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 1vw;
+    transition: 0.3s;
+ }
+
+ .next {
+    display: block;
+    margin: auto;
+    margin-top: 1vw;
+    height: 3vw;
+    width: 5vw;
+    background-color: transparent;
+    border-radius: 0.5vw;
+    text-align: center;
+    outline: none;
+    border: 0.1vw solid #1cb615;
+    color: #1cb615;
+    font-family: Oswald;
+    font-size: 1vw;
+    transition: 0.3s;
+ }
+
+ .next:hover {
+    background-color: #1cb615;
+    color: rgb(255, 255, 255);
+ }
+  
+ .card:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
