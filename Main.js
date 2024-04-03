@@ -78,10 +78,10 @@ Next.onclick = function(){
     Next.style.display = "none";
 
     Card1.textContent = "This"
-    Card1.style.color = 'none'
+    Card1.style.color = '#ffffff'
 
     Card2.textContent = "That"
-    Card2.style.color = 'none'
+    Card2.style.color = '#ffffff'
   }
 };
 
