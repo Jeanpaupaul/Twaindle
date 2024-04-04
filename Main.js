@@ -3,6 +3,7 @@ let Card2 = document.querySelector("#card2");
 let Next = document.querySelector("#next");
 let number = document.querySelector("#number");
 let prob = document.querySelector("#prob");
+let Quote = document.querySelector("#QuoteButton");
 
 isNumeric = function(n) {
   return (typeof n !== 'undefined') ? !Array.isArray(n) && !isNaN(parseFloat(n)) && isFinite(n) : undefined;

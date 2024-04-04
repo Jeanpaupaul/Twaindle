@@ -7,6 +7,57 @@
     height: 15vw;
 }
 
+#QuoteButton {
+    display: block;
+    margin: auto;
+    margin-top: 1vh;
+    height: 6vh;
+    width: fit-content;
+    background-color: transparent;
+    border-radius: 0.5vw;
+    text-align: center;
+    outline: none;
+    border: 0.1vw solid #ffffff;
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-bottom: 3vh;
+    transition: 0.3s;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#QuoteText {
+    font-family: Oswald;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+}
+
+#QuoteImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+    width: auto;
+    height: auto;
+}
+
+#QuoteButton:hover {
+    color: black;
+    background-color: white;
+}
+
+a, a:hover {
+    text-decoration: none;
+  }
+
 #number {
    display: flex;
    align-items: center;
@@ -35,6 +86,9 @@
   font-size: 80px;
   text-align: center;
   color:  white;
+  margin-top: 1vh;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .Background {
